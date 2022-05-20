@@ -1,1 +1,1 @@
-# Unit5-02-PHP-ProductOfNumbers
+[![GitHub's Super Linter](https://github.com/CarolynWP/Unit5-02-PHP-ProductOfNumbers/actions/workflows/main.yml/badge.svg)](https://github.com/CarolynWP/Unit5-02-PHP-ProductOfNumbers/actions)
