@@ -1,4 +1,4 @@
-8	###############################################
+###############################################
 
 # Run GitHub's Super Linter against code base #
 
@@ -38,4 +38,4 @@ run-linters:
 
         DEFAULT_BRANCH: main
 
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 3344
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
