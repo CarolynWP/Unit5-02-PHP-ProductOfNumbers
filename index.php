@@ -47,25 +47,22 @@
 						// variables
 						$first= $_POST["first"]; 
 						$second= $_POST["second"]; 
-						$sum= $first;
+						$sum= 0;
 						
 						//For loop for positive numbers
-					 for ($counter = 0;$counter <= $second; $counter++) {
-						 if ($counter = $second){
-						 $sum = $sum + $counter;
-						 }
-						 else {
-							 $sum = $sum + $counter;
-						 }
+					 for ($counter = 0;$counter < $second; $counter++) {
+						 $sum = $sum + $first;
 						} 
 					
 						 //For loop for negative numbers
-						for ($counter = 0;$counter >= $second; $counter--){
-								 if ($counter = $second){
-							 $sum = $sum + $counter;
-								 }
+						for ($counter = 0;$counter > $second; $counter--){
+							if ($first > 0)
+								 $sum = $sum - $first;
+							else if ($first > 0 && $second > 0){
+								$sum = $sum + $first;
+							}
 							else {
-								$sum = $sum + $counter;
+								$sum = $sum - $first;
 							}
 						} 
 						
